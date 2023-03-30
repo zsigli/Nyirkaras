@@ -1,0 +1,48 @@
+body{
+    background-color: #F4DEB5;
+}
+table{
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+button {
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: black; /* blue button */
+  color: white;
+  font-size: 16px;
+ animation-name: pulse;
+  animation-duration: 1s;
+  animation-iteration-count: 3;
+  transition: width 0.3s ease;
+  
+}
+
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.2); }
+  100% { transform: scale(1); }
+}
+button:hover
+{
+    background-color: white;
+    color: black;
+    width: 150px;
+}
+h1{
+    text-align: center;
+}
+p{
+    font-size: larger;
+}
+div.felsorol{
+    width: 500px;
+}
+li{
+    font-size: larger;
+}
+img:hover{
+    transform: scale(1.5);
+    border: black 2px solid;
+}
